@@ -1,0 +1,711 @@
+/*
+orange : rgb(255, 153, 51)  #ff9933
+azul : rgb(45, 89, 134)	  #2d5986	
+*/
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*
+.top-container {
+   margin-bottom: 3%;
+  
+}*/
+.titulo{
+    text-align: center;
+    color:orange
+        
+}
+
+/* en la parte superior elegimos idioma */
+
+#idiomas {
+    width: 100%;
+    height: 30px;
+    background-color: #ff9933;
+}
+
+#idiomas a {
+    margin-left: 5%;
+}
+
+
+/*estilo al elegir idioma cuando actualizamos la pag hay una transicion, */
+
+.idioma {
+    transition: 0.4s;
+    color: #924a4a;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+/* al pasar el raton por encima hay un efecto sobre el idioma elegido*/
+
+.idioma:hover {
+    background-color: #ffffff;
+    color: #cf6348;
+    padding: 4px 15px 15px 4px;
+}
+.paddingbtn2{
+    padding:1em;
+    margin:1em;
+}
+.paddingbtn{
+    padding:0.5em;
+    margin:0.5em;
+}
+/****************************
+caja de cookies *******************/
+.flotante {
+    width: 100%;
+    height: 100%;
+    background: rgba(60, 60, 60, 0.2);
+    color: #fff;
+    position: fixed;
+}
+/********* Aviso de coockies*************** */
+.flotante a {
+    color: #fff;
+}
+
+.cc_grey {
+    height: 60%;
+    width: 100%;
+    background-color: rgba(60, 60, 60, 0.2);
+}
+
+.aviso {
+    background-color: black;
+    height: 40%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "verdana", sans-serif;   
+    padding: 2em;
+    text-align: center;
+   
+}
+.mensaje{
+    margin-left:30%;
+}
+.btncookies{
+   color: white;
+    margin:10%;
+    border: none;
+    padding: 1em;
+    font-size: 20px;
+    background: grey;
+}
+.btncookies:hover{
+   color: white;
+    margin:10%;
+    border: none;
+    padding: 1em;
+    font-size: 20px;
+    background: #ff9933;
+}
+/*******  Banner de la web*/
+.banner { 
+    height: 300px;
+    background : url("../imagenes/banner.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 70%;
+}
+.banner_vertical { 
+   
+    background : url("../imagenes/banner_vertical.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+/* el logo es una imagen centrada en la cabecera*/
+.logo {
+    max-width:40%;
+    margin: 2em 2em 2em 4em;
+}
+/***  posicionamiento del menu se queda arriba al hacer scroll*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+
+#minilogoHidden{    
+    max-width:50%;
+    margin-top:-50px;
+    
+}
+#minilogo2{    
+    max-width:70%;
+    margin-top:-10%;
+    margin-left: 10%;
+}
+.menutop {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#navegacion {
+    width: 100%;
+    height: 55px;
+    margin: auto;
+    margin-top: -25px;
+}
+
+#menu {
+    display: flex;
+    margin-left:5em;
+}
+
+#menu a {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+   
+}
+
+.hijo {
+    margin-left: 20px;
+    padding-left: 2em;
+}
+
+#menu a:hover {
+    font-size: 25px;
+    color: #ff9933;
+    padding: 4px;
+    text-decoration: none;
+}
+
+#login {
+    margin-left: 65%;
+}
+
+#login input {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 3em;
+    border: 0px;
+    text-decoration: none;
+    background-color: #ff9933;
+}
+
+#login input:hover {
+    border: 1px solid whitesmoke;
+    color: white;
+}
+
+.bannerGestion{
+    background-color: whitesmoke;
+    padding: 3em;
+}
+.imgestion{
+    max-width:80%;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+/* -------------  Contenido --------*/
+.font{
+     font-family: 'Lucida Handwriting', serif;
+}
+.orange{
+    color:#ff9933;
+}
+#content1 {
+   text-align: center;
+   margin-top: 5em;
+}
+/*
+#content1 h2 {
+    color: #ff9933;
+    font-size: 28px;
+}*/
+#content1 h1 {
+    color: orange;
+    font-size: 28px;
+}
+/*
+.contenedor hr {
+    width: 70%;
+    margin-top: 5em;
+    border: 10px solid orange;
+    border-radius: 5px;
+}
+
+*/
+.separador{
+    width: 90%;
+    margin-left:6em;
+    margin-top: 3em;
+    border: 10px solid #5f9ea0 ;
+    border-radius: 5px;
+}
+.contenedor2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-bottom:2em;
+    
+}
+.contenedor3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-bottom:3em;
+    
+}
+.contenedor3 .conten6:hover{
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 2, 0.5);  
+}
+.contenedor2 .conten6:hover{
+  box-shadow: 12px 8px 12px 0 rgba(0, 0, 2, 0.5);  
+}
+
+.conten2 {
+    text-align: center;
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.conten2 h2 {
+    margin-top: 4em;
+    text-align: center;
+    color: #ff9933;
+    font-size: 28px;
+}
+
+.conten2 img {
+    margin-bottom: 3%;
+    max-width: 100%;
+}
+
+.conten3 {
+    text-align: center;
+    margin-top: 2em;
+    width: 20%;
+}
+
+.conten3 h2 {
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    color: #ff9933;
+    font-size: 23px;
+}
+
+.conten3 p {
+    margin-bottom: 2em;
+}
+
+.conten3 img {
+    max-width: 95%;
+}
+
+.conten3 h2:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.imgconten3{
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+.conten4 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.conten4 :hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.conten5 {
+    background-color: rgb(255, 238, 181);
+    padding: 3em;
+    text-align: center;
+    margin-top: 1rem;
+    width: 20%;
+}
+.conten6{
+    background-color: cadetblue;
+    text-align: center;
+    margin-top: 2rem;
+    width: 23%;
+}
+
+.conten6 h2{
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
+    background-color: #ff9933;
+    color: black;  
+}
+.conten6 img{
+    max-width: 100%;
+}
+.conten6 p{
+   padding:0 1.5em ;
+   font-family: verdana;
+
+}
+#menu,#kits{
+   /* margin-bottom:5em;*/
+}
+/** CAJAS DE INFO DE PEDIR PEDIDO **/
+.sombra{
+    box-shadow: 0px 0px 10px cadetblue;
+}
+.sombra_svg {
+	position: relative;
+	margin:auto;
+	display:-webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;
+	-webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	box-sizing: border-box;
+	background: #ff9;
+        height: 5em;
+	/*box-shadow:1px 1px 2px #333;*/
+	-webkit-filter: drop-shadow(0px 0px 5px #333);
+	filter: drop-shadow(0px 0px 5px #333);
+	text-align: center;
+	white-space: normal;
+}
+
+/*.sombra_svg span{ text-align:center;}*/
+.sombra_svg::before {
+	content: "";
+	position: absolute;
+	top: 4.5em;
+	right: 2.5em;
+	width: 1em;
+	height: 1em;
+	background-color: #ff9;
+	transform : rotate(45deg);
+	/*box-shadow:0px 0px 5px #333*/;
+}
+.alertinfo{
+   background-color: wheat;
+   border-radius: 5px ;
+  /* box-shadow: 0px 0px 10px 0px orange inset;*/
+ 
+}
+.btnorange{
+     margin-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 3em;
+    width: 80%;
+    border: 0px;
+    text-decoration: none;
+    background-color: #ff9933;
+    list-style:none;
+}
+.btnorange:hover{
+    background-color:white;
+    color:orange;
+    font-size: 20px; 
+}
+#formenu button{
+    margin-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 3em;
+    width: 80%;
+    border: 0px;
+    text-decoration: none;
+    background-color: #ff9933;
+    list-style:none;
+   
+    
+}
+contenMenu{
+    padding: 0.5;
+    background-color:wheat ;
+}
+#formenu button:hover{
+    background-color:white;
+    color:#ff9933;
+    font-size: 20px;
+}
+.contenedor2 .conten6 li{
+    text-align:left;
+    padding: 0.5em;
+}
+.contenedor2 .conten6 li:last-child{
+    list-style:none;
+    color:white;
+}
+.contenedor2 .conten6 form input{
+    margin: auto;
+}
+/*imagenes de los platos*/
+.tfoto_peque{
+   width: 80px;
+}
+.tfoto{
+    max-width:175px;
+    max-height:  175px;
+}
+.tfoto2{
+    width: 150px;
+    
+}
+
+.front{
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    position: absolute;
+    z-index: 1;
+    transition: all 0.5s ease-out 0s;
+    transform: rotateY(
+0deg
+);
+}
+.back{
+        transform: rotateY(
+-180deg
+);
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    position: absolute;
+    z-index: 0;
+    transition: all 0.5s ease-out 0s;
+}
+/****tarjeta credito**/
+.inputpago{
+    width: calc(100% - 10px);
+    min-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: .5px;
+    border: 0;
+    border-bottom: 2px solid #f0f0f0;
+    padding-left: 0;
+    list-style: none;
+}
+/*------------------------------------------------------------------------------------------------*/
+/****estilos en trabajadores**/
+.hrapp{
+    width: 90%;
+    height: 2px;
+    margin-top: 1em;
+    border: 5px solid #5f9ea0;
+    border-radius: 2px;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
+.btnapp2 {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border: 0px;
+    text-decoration: none;
+    background-color:cadetblue;
+    width: 80%;
+    color: white;
+    font-size: 25px;
+    
+}
+.btnapp2:hover {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border: 1px solid #2d5986;
+    text-decoration: none;
+    background-color:white;
+    width: 80%;
+    color: #2d5986;
+    font-size: 25px;
+    
+}
+.btnapp {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border: 0px;
+    text-decoration: none;
+    background-color: #ff9933;
+    width: 80%;
+    color: white;
+    font-size: 25px;
+    
+}
+.btnapp:hover {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border: 1px solid #ff9933;
+    text-decoration: none;
+    background-color:white;
+    width: 80%;
+    color: orange;
+    font-size: 25px;
+    
+}
+.btnapp input:active {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border: 1px solid #ff9933;
+    text-decoration: none;
+    background-color:white;
+    width: 80%;
+    color: orange;
+    font-size: 25px;
+    
+}
+.btnapp3 {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border: 0px;
+    text-decoration: none;
+    background-color: #ff9933;
+  
+    color: white;
+    font-size: 25px;
+    
+}
+.btnapp3:hover {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border: 1px solid #ff9933;
+    text-decoration: none;
+    background-color:white;
+
+    color: orange;
+    font-size: 25px;
+    
+}
+.btnapp3 input:active {
+    margin-top: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 2em;
+    border: 1px solid #ff9933;
+    text-decoration: none;
+    background-color:white;
+
+    color: orange;
+    font-size: 25px;
+    
+}
+.linea
+{
+    display: inline-block;
+}
+/* ------------------------  - FIN CSS CONTENIDO WEB   -----------------------------------------* /
+/* ---------------EStilos para formularios php*/
+
+
+.formulario{
+   margin-top: 2em;
+    
+}
+.formulario img{
+   max-width:60%;
+   text-align:center;
+   float:right; 
+   margin: 0em 10em 0 0;
+}
+.formulario h1{    
+    margin-left:20%;
+    text-align:center;
+    color:orange;
+     
+}
+.form2{
+    width: 100%;  
+    background-color: whitesmoke;
+    padding: 0.5em;
+    margin: 0 auto;
+    border: 2px solid #ff9933;
+}
+.txtCooki{
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 70%;
+    font-size: 10px;
+}
+.form{
+    width: 70%;  
+    background-color: #ffc266;
+    padding: 0.5em;
+    margin: 0 auto;
+}
+.form input{
+    margin:0.5em;
+    padding: 0.3em;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1em;  
+    list-style:none;
+  
+}
+.footer{
+    background-color: cadetblue;
+    color: white;
+     padding: 3em 0em 0em 3em;   
+}
+@media (max-width:1120px) {
+    .conten3 {
+        width: 80%;
+    }
+    .conten3 img {
+        max-width: 100%;
+    }
+    .conten2 {
+        width: 80%;
+    }
+    .conten2 img {
+        max-width: 70%;
+    }
+    .conten6{
+        width:40%;
+    }
+}
+@media (max-width:920px) {
+    .conten6{
+        width:70%;
+    }
+    
+}
+
+
+@font-face {
+    font-family: 'Lucida Handwriting';
+    src: url(../fonts/Lucida/Lucida\ Handwriting\ Italic.ttf);
+}
